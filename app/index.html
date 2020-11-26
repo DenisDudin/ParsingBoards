@@ -51,31 +51,40 @@
                     </ul>
                 </div>
             </div>
+
+            <div class="sort_right">
+                <label for="customRange2" class="form-label">Example range</label>
+                <input type="range" class="form-range" min="0" max="100 000" id="customRange2">
+            </div>
         </div>
     </section>
 
     <section class="goods">
         <div class="container">
-            <div class="row">
-                <div class="col">
-                    <a href="#" class="name_goods">Название товара</a>
-                </div>
-                <div class="col">
-                    Город
-                </div>
-                <div class="col col-lg-2">
-                    Цена
-                </div>
-                <div class="col col-lg-2">
-                    <button class="add_good">Добавить в избранное</button>
-                </div>
-            </div>
-
-            <article class="parameters">
-                <h3>Параметры прибора</h3>
-                <label for="customRange2" class="form-label">Example range</label>
-                <input type="range" class="form-range" min="0" max="100 000" id="customRange2">
-            </article>
+            <table class="table">
+                <thead class="table-dark">
+                    <tr>
+                        <td>Номер</td>
+                        <td>Название</td>
+                        <td>Описание</td>
+                        <td>Цена</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Счетчик оборотов СО-35</td>
+                        <td>В хорошем состоянии</td>
+                        <td>9 300.00</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Счетчик оборотов СО-35</td>
+                        <td>В хорошем состоянии</td>
+                        <td>9 300.00</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </section>
 
